@@ -223,6 +223,7 @@ main {
   gap: 10px;
   color: #c23949;
   transition: 1s;
+  cursor: pointer;
 }
 
 .arrow3{
