@@ -10,7 +10,8 @@ body {
   background-repeat: no-repeat;
   background-position: right 0;
   background-size: cover;
-
+  width: 1263.33px;
+  height: 720px;
 }
 
 header {
@@ -38,8 +39,7 @@ a {
   transition: 0.2s;
 }
 
-
-.inf:hover{
+.inf:hover {
   gap: 15px;
 }
 
@@ -91,8 +91,8 @@ a {
   justify-content: center;
   align-items: center;
   background-color: #c23949;
-  width: 100px;
-  height: 40px;
+  width: 112px;
+  height: 44px;
   border-radius: 50px;
   color: white;
   transition: 0.5s;
@@ -173,3 +173,75 @@ main {
   font-family: "Raleway", sans-serif;
   margin-top: 0;
 }
+/*----------CONTEÚDO 01--------------*/
+.ser-cliente{
+  display: flex;
+  margin-top: 210px;
+  background-color: #c23949;
+  height: 623.67px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#ar1{
+  margin-top: 150px;
+  margin-left: 90px;
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.maintxt-ar1{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  width: 400px;
+}
+
+.txt-ar1{
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  display:flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 457.5px
+}
+
+.btn-ar1{
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  width: 223.81px;
+  height: 44px;
+  border-radius: 50px;
+  border: 0;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: #c23949;
+  transition: 1s;
+}
+
+.arrow3{
+  font-family: "Montserrat", sans-serif;
+  color: #c23949;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.btn-ar1:hover{
+  color: white;
+  background-color: #ed2a41;
+  gap: 15px;
+}
+
+.warn{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: white;
+  font-size: 12px;
+}
+
